@@ -340,6 +340,7 @@ SECTION 2
     justify-content: space-evenly;
     padding-bottom:1em;
     flex-grow: 1;
+    flex-shrink: 0;
 }
 .img-item {
     width:46%;
