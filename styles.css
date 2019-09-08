@@ -222,6 +222,7 @@ SECTION 2
     display:flex;
     justify-content: center;
     padding-bottom:3rem;
+    flex-grow:1;
 }
 .imagen-sistema-item {
     max-width:500px;
@@ -248,9 +249,7 @@ SECTION 2
     padding-right:1rem;
     position:relative;
 }
-.expand-text {
-    height:100%;
-}
+
 .fade {
     height: 100px;
     width: 100%;
@@ -336,6 +335,7 @@ SECTION 2
     display:flex;
     justify-content: space-evenly;
     padding-bottom:1em;
+    flex-grow: 1;
 }
 .img-item {
     width:46%;
@@ -439,4 +439,7 @@ MEDIA QUERIES
 }
 .display-none {
     display:none;
+}
+.expand-text {
+    height:100%;
 }
