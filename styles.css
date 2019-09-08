@@ -31,6 +31,10 @@ a {
     color:var(--color3);
     text-decoration: none;
 }
+img {
+    max-width:100%;
+    height:auto;
+}
 
 
 
@@ -216,7 +220,7 @@ SECTION 2
 
 /* SISTEMA DE MONITOREO - SECTION 3*/
 .monitoreo {
-        margin-top:7rem;
+    margin-top:7rem;
 }
 .imagen-sistema {
     display:flex;
